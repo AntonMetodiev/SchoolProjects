@@ -1,12 +1,15 @@
-﻿using System;
+﻿using FirmDb;
+using FirmDb.Presentation;
+using System;
 
-namespace FirmDb
+namespace CompanyDB
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            FirmContext cm = new FirmContext();
+            Display d = new Display();
         }
     }
 }
